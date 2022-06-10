@@ -1,0 +1,40 @@
+This program will print out the statistic of the Monthy Hall Problem.
+
+LOOP GAME
+
+SET doors 
+    RANDOMLY assign CAR to 1 door
+
+CHOOSE  a door at random 
+    ASSIGN door R
+
+FOR every door in index
+    CHECK if door is not the door picked and door is CAR
+        RETURN door A
+END FOR
+
+FOR every door in index 
+    CHECK if door is not the door picked and is not OPENED
+        RETURN door B
+END FOR
+
+IF player doesn't switch and WINS
+    ADD to gamesWithSameDoorWon
+        else
+            ADD to  gamesWithSameDoorLost
+END IF
+
+IF player switches door and WINS
+    ADD to gamesWithDoorChangeWon
+        else
+            ADD to gamesWithDoorChangeLost
+END IF
+
+DIVIDE the amount of gamesWithSameDoorWon
+    BY total games played
+        MULTIPLIE by 100
+
+DIVIDE the amount of gamesWithDoorChangeWon
+    BY total games played
+        MULTIPLIE by 100
+
