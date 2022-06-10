@@ -114,8 +114,8 @@ for (let i = 0; i < 1000; i++) {
 }
 
 //console.log(stats)
-console.log(stats.sameDoorWonPercent() + "% of games were won when switching door.")
-console.log(stats.diffDoorWonPercent() + "% of games were won when not switching door.")
+console.log(stats.sameDoorWonPercent() + "% of games were won when not switching door.")
+console.log(stats.diffDoorWonPercent() + "% of games were won when switching door.")
 // console.log(stats.gamesWithDoorChangeWon)
 // console.log(stats.gamesWithDoorChangeLost)
 // console.log(stats.gamesWithSameDoorWon)
